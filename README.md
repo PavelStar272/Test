@@ -1,3 +1,5 @@
+Не понимаю за таблицы UML... Так что наверное так ...
+
 ![UsersDiagram](https://github.com/user-attachments/assets/2cd292b4-ce18-4741-8f52-02462f62543b)
 
 Делал запросы через ThunderClient - расширение в VSCode
