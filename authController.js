@@ -2,7 +2,7 @@ import createUsers from "./utils/createUsers.js";
 import fs from "fs";
 
 class authController {
-  async register(req, res) {
+  register(req, res) {
     try {
       let rawdata = fs.readFileSync("./bd/dataJson.json");
       let parseddata = JSON.parse(rawdata);
@@ -39,7 +39,7 @@ class authController {
       res.status(400).json({ message: "Register error" });
     }
   }
-  async login(req, res) {
+  login(req, res) {
     try {
       let rawdata = fs.readFileSync("./bd/dataJson.json");
       let parseddata = JSON.parse(rawdata);
